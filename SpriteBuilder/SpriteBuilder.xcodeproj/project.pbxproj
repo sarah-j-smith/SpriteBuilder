@@ -1062,11 +1062,20 @@
 		E525FFEC30A90DA81B17E9F5 /* SemanticVersioning.m in Sources */ = {isa = PBXBuildFile; fileRef = E525F0662ED78DDE9C8DFFBB /* SemanticVersioning.m */; };
 		E525FFF21919490B3568DC1F /* ZipDirectoryOperation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E525FC007BC96FC532967575 /* ZipDirectoryOperation_Tests.m */; };
 		E525FFF90B5CCC7573B84680 /* InspectorIntegerLabeled.m in Sources */ = {isa = PBXBuildFile; fileRef = E525F51E61767602F66107B1 /* InspectorIntegerLabeled.m */; };
+		F6D397721A7D248900317811 /* CCBPSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B72D1DD118612D570091252F /* CCBPSprite.m */; };
+		F6D397741A7D248900317811 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		F6D397761A7D248900317811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3C365F014E9E4D1007CD5FF /* InfoPlist.strings */; };
+		F6D397771A7D248900317811 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F3CA5C1A42324C003D8659 /* Icon@2x.png */; };
+		F6D397781A7D248900317811 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3C365F914E9E599007CD5FF /* CCBPProperties.plist */; };
+		F6D397791A7D248900317811 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B7BCA515E4168D00CF95EF /* Icon.png */; };
+		F6D397831A7D24D800317811 /* ccbpublish.m in Sources */ = {isa = PBXBuildFile; fileRef = FA98CFC6154E7D1C006E58C5 /* ccbpublish.m */; };
+		F6D3978F1A7D26A300317811 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6D397861A7D26A300317811 /* CCBPProperties.plist */; };
+		F6D397901A7D26A300317811 /* CCBPStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D397881A7D26A300317811 /* CCBPStateMachine.m */; };
+		F6D397921A7D26A300317811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6D3978B1A7D26A300317811 /* InfoPlist.strings */; };
+		F6D397931A7D26A300317811 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D3978D1A7D26A300317811 /* Icon.png */; };
+		F6D397941A7D26A300317811 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D3978E1A7D26A300317811 /* Icon@2x.png */; };
+		F6D397971A7D2A2A00317811 /* CCStateMachine.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = F6D3977E1A7D248900317811 /* CCStateMachine.ccbPlugNode */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FA98CFC4154E7D1C006E58C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98CFC3154E7D1C006E58C5 /* Foundation.framework */; };
-		FA98CFC7154E7D1C006E58C5 /* ccbpublish.m in Sources */ = {isa = PBXBuildFile; fileRef = FA98CFC6154E7D1C006E58C5 /* ccbpublish.m */; };
-		FA98CFD1154E7F7D006E58C5 /* CCBX.m in Sources */ = {isa = PBXBuildFile; fileRef = E398C03614FB8A430078E771 /* CCBX.m */; };
-		FA98CFD7154E828E006E58C5 /* PlugInManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B7AEDC14E3246100DFD402 /* PlugInManager.m */; };
-		FA98CFD9154E828E006E58C5 /* PlugInExport.m in Sources */ = {isa = PBXBuildFile; fileRef = E398C03214FB86D20078E771 /* PlugInExport.m */; };
 		FA98CFDB154E8D16006E58C5 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98CFDA154E8D16006E58C5 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -1098,13 +1107,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = D2FEB74F194F6C9E00FC0574;
 			remoteInfo = cocos2dAndroid;
-		};
-		836E2D5919EE5BCC00CD5B66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 836E2D3E19EE5AF300CD5B66 /* cocos2d.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5BF3267A195F8D8800D9A51A;
-			remoteInfo = cocos2dJava;
 		};
 		836E2D5B19EE5BCC00CD5B66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1267,6 +1269,13 @@
 			remoteGlobalIDString = E3D59120150F5367004180CA;
 			remoteInfo = CCBFile;
 		};
+		F6D397951A7D298900317811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D397701A7D248900317811;
+			remoteInfo = CCStateMachine;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1319,6 +1328,7 @@
 				E35DBB8C14F226190070A6E4 /* CCNodeColor.ccbPlugNode in Copy PlugIns */,
 				E3C365FE14E9F147007CD5FF /* CCSprite.ccbPlugNode in Copy PlugIns */,
 				E3B7AED514E31E6C00DFD402 /* CCNode.ccbPlugNode in Copy PlugIns */,
+				F6D397971A7D2A2A00317811 /* CCStateMachine.ccbPlugNode in Copy PlugIns */,
 			);
 			name = "Copy PlugIns";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2851,6 +2861,13 @@
 		E525FFE261905E5B939DC1F1 /* InspectorCCBFile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectorCCBFile.xib; sourceTree = "<group>"; };
 		E525FFEB091D46AB06B02BF1 /* CCBPublisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBPublisher.m; sourceTree = "<group>"; };
 		E525FFF365C597A1BE609FBC /* test_ccbreader_effectnode.ccb */ = {isa = PBXFileReference; lastKnownFileType = file.ccb; path = test_ccbreader_effectnode.ccb; sourceTree = "<group>"; };
+		F6D3977E1A7D248900317811 /* CCStateMachine.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCStateMachine.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D397861A7D26A300317811 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		F6D397871A7D26A300317811 /* CCBPStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBPStateMachine.h; sourceTree = "<group>"; };
+		F6D397881A7D26A300317811 /* CCBPStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBPStateMachine.m; sourceTree = "<group>"; };
+		F6D3978C1A7D26A300317811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6D3978D1A7D26A300317811 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F6D3978E1A7D26A300317811 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		FA98CFC1154E7D1C006E58C5 /* ccbpublish */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ccbpublish; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA98CFC3154E7D1C006E58C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA98CFC6154E7D1C006E58C5 /* ccbpublish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccbpublish.m; sourceTree = "<group>"; };
@@ -3071,6 +3088,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3D59122150F5367004180CA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D397731A7D248900317811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D397741A7D248900317811 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3720,6 +3745,7 @@
 				833A5C4A192B48CB001837B3 /* SpriteBuilder Tests.xctest */,
 				929D1BA31954D16C00B27340 /* CCEffectNode.ccbPlugNode */,
 				83F3CA701A423337003D8659 /* CCLightNode.ccbPlugNode */,
+				F6D3977E1A7D248900317811 /* CCStateMachine.ccbPlugNode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4127,7 +4153,6 @@
 			children = (
 				836E2D5619EE5BCC00CD5B66 /* libcocos2d.a */,
 				836E2D5819EE5BCC00CD5B66 /* libcocos2dAndroid.a */,
-				836E2D5A19EE5BCC00CD5B66 /* cocos2dJava.jar */,
 				836E2D5C19EE5BCC00CD5B66 /* libcocos2d-mac.a */,
 			);
 			name = Products;
@@ -5370,6 +5395,7 @@
 		E3B7AED114E31A7800DFD402 /* PlugIns (Nodes) */ = {
 			isa = PBXGroup;
 			children = (
+				F6D397841A7D267600317811 /* StateMachine */,
 				E35392461518AD0A00471721 /* Core */,
 				E35392481518AD4100471721 /* UI */,
 				B79F90E717FF335000908504 /* Physics */,
@@ -5923,6 +5949,27 @@
 			name = "Document Readers & Writers";
 			sourceTree = "<group>";
 		};
+		F6D397841A7D267600317811 /* StateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				F6D397851A7D26A300317811 /* CCStateMachine */,
+			);
+			name = StateMachine;
+			sourceTree = "<group>";
+		};
+		F6D397851A7D26A300317811 /* CCStateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				F6D397861A7D26A300317811 /* CCBPProperties.plist */,
+				F6D397871A7D26A300317811 /* CCBPStateMachine.h */,
+				F6D397881A7D26A300317811 /* CCBPStateMachine.m */,
+				F6D3978B1A7D26A300317811 /* InfoPlist.strings */,
+				F6D3978D1A7D26A300317811 /* Icon.png */,
+				F6D3978E1A7D26A300317811 /* Icon@2x.png */,
+			);
+			path = CCStateMachine;
+			sourceTree = "<group>";
+		};
 		FA98CFC5154E7D1C006E58C5 /* ccbpublish */ = {
 			isa = PBXGroup;
 			children = (
@@ -5979,6 +6026,7 @@
 				E35DBBD914F2AA720070A6E4 /* PBXTargetDependency */,
 				E35DBBF614F3E26B0070A6E4 /* PBXTargetDependency */,
 				E3D5912E150F53CD004180CA /* PBXTargetDependency */,
+				F6D397961A7D298900317811 /* PBXTargetDependency */,
 				E35DBC1614F4D7920070A6E4 /* PBXTargetDependency */,
 				83F3CA8C1A42388D003D8659 /* PBXTargetDependency */,
 			);
@@ -6380,6 +6428,23 @@
 			productReference = E3D59121150F5367004180CA /* CCBFile.ccbPlugNode */;
 			productType = "com.apple.product-type.bundle";
 		};
+		F6D397701A7D248900317811 /* CCStateMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D3977A1A7D248900317811 /* Build configuration list for PBXNativeTarget "CCStateMachine" */;
+			buildPhases = (
+				F6D397711A7D248900317811 /* Sources */,
+				F6D397731A7D248900317811 /* Frameworks */,
+				F6D397751A7D248900317811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCStateMachine;
+			productName = CCSprite;
+			productReference = F6D3977E1A7D248900317811 /* CCStateMachine.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
+		};
 		FA98CFC0154E7D1C006E58C5 /* ccbpublish */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA98CFCE154E7D1C006E58C5 /* Build configuration list for PBXNativeTarget "ccbpublish" */;
@@ -6460,6 +6525,7 @@
 				92154ACF18A5560B00BD215C /* CCPhysicsPivotJoint */,
 				926D13D718B57B9500582959 /* CCPhysicsPinJoint */,
 				92B7900118C808B7007DF895 /* CCPhysicsSpringJoint */,
+				F6D397701A7D248900317811 /* CCStateMachine */,
 				FA98CFC0154E7D1C006E58C5 /* ccbpublish */,
 			);
 		};
@@ -6478,13 +6544,6 @@
 			fileType = archive.ar;
 			path = libcocos2dAndroid.a;
 			remoteRef = 836E2D5719EE5BCC00CD5B66 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		836E2D5A19EE5BCC00CD5B66 /* cocos2dJava.jar */ = {
-			isa = PBXReferenceProxy;
-			fileType = compiled.java.jar;
-			path = cocos2dJava.jar;
-			remoteRef = 836E2D5919EE5BCC00CD5B66 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		836E2D5C19EE5BCC00CD5B66 /* libcocos2d-mac.a */ = {
@@ -7248,6 +7307,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6D397751A7D248900317811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D397761A7D248900317811 /* InfoPlist.strings in Resources */,
+				F6D397941A7D26A300317811 /* Icon@2x.png in Resources */,
+				F6D397921A7D26A300317811 /* InfoPlist.strings in Resources */,
+				F6D397771A7D248900317811 /* Icon@2x.png in Resources */,
+				F6D397781A7D248900317811 /* CCBPProperties.plist in Resources */,
+				F6D397931A7D26A300317811 /* Icon.png in Resources */,
+				F6D3978F1A7D26A300317811 /* CCBPProperties.plist in Resources */,
+				F6D397791A7D248900317811 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -7851,14 +7925,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6D397711A7D248900317811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D397901A7D26A300317811 /* CCBPStateMachine.m in Sources */,
+				F6D397721A7D248900317811 /* CCBPSprite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA98CFBD154E7D1C006E58C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA98CFD7154E828E006E58C5 /* PlugInManager.m in Sources */,
-				FA98CFD9154E828E006E58C5 /* PlugInExport.m in Sources */,
-				FA98CFD1154E7F7D006E58C5 /* CCBX.m in Sources */,
-				FA98CFC7154E7D1C006E58C5 /* ccbpublish.m in Sources */,
+				F6D397831A7D24D800317811 /* ccbpublish.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7984,6 +8064,11 @@
 			isa = PBXTargetDependency;
 			target = E3D59120150F5367004180CA /* CCBFile */;
 			targetProxy = E3D5912D150F53CD004180CA /* PBXContainerItemProxy */;
+		};
+		F6D397961A7D298900317811 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6D397701A7D248900317811 /* CCStateMachine */;
+			targetProxy = F6D397951A7D298900317811 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -8192,6 +8277,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3D59127150F5367004180CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6D3978B1A7D26A300317811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D3978C1A7D26A300317811 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -11027,6 +11120,89 @@
 			};
 			name = Release;
 		};
+		F6D3977B1A7D248900317811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					"libs/cocos2d-iphone/cocos2d/**",
+					"libs/cocos2d-iphone/cocos2d-ui/**",
+				);
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCStateMachine;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		F6D3977C1A7D248900317811 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					"libs/cocos2d-iphone/cocos2d/**",
+					"libs/cocos2d-iphone/cocos2d-ui/**",
+				);
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCStateMachine;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Testing;
+		};
+		F6D3977D1A7D248900317811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					"libs/cocos2d-iphone/cocos2d/**",
+					"libs/cocos2d-iphone/cocos2d-ui/**",
+				);
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCStateMachine;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Release;
+		};
 		FA98CFCC154E7D1C006E58C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -11326,6 +11502,16 @@
 				E3D5912B150F5367004180CA /* Debug */,
 				83833169196578F500E6EFB1 /* Testing */,
 				E3D5912C150F5367004180CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D3977A1A7D248900317811 /* Build configuration list for PBXNativeTarget "CCStateMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D3977B1A7D248900317811 /* Debug */,
+				F6D3977C1A7D248900317811 /* Testing */,
+				F6D3977D1A7D248900317811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
