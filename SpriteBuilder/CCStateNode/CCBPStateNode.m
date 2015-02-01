@@ -6,11 +6,11 @@
 //
 //
 
-#import "CCBPStateMachine.h"
+#import "CCBPStateNode.h"
 #import "CCScaleFreeNode.h"
 #import "CCSprite.h"
 
-@implementation CCBPStateMachine
+@implementation CCBPStateNode
 {
     CCNode *_scaleFreeNode;
 }
@@ -26,13 +26,11 @@
 
 - (void)setupVisual
 {
-    // Scale free prevents the images under this node from scaling up and down when the
-    // editor window is scaled.  Its good for tokens & symbols.
     _scaleFreeNode = [CCScaleFreeNode node];
     [_scaleFreeNode setScale:1.0f];
     [self addChild:_scaleFreeNode];
     
-    CCSprite *stateMachineRepresentation = [CCSprite spriteWithImageNamed:@"state-machine.png"];
+    CCSprite *stateMachineRepresentation = [CCSprite spriteWithImageNamed:@"state-node.png"];
     stateMachineRepresentation.positionType = CCPositionTypeUIPoints;
     [_scaleFreeNode addChild:stateMachineRepresentation];
 }
@@ -40,7 +38,7 @@
 - (void)visit:(CCRenderer *)renderer parentTransform:(const GLKMatrix4 *)parentTransform
 {
     [super visit:renderer parentTransform:parentTransform];
-//    NSLog(@"Visit state machine");
+    //    NSLog(@"Visit state machine");
 }
 
 - (void)onEnter
@@ -51,5 +49,6 @@
     NSPoint pos = NSPointFromCGPoint([self position]);
     NSLog(@"location: %@", NSStringFromPoint(pos));
 }
+
 
 @end

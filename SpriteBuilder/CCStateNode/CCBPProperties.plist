@@ -5,9 +5,9 @@
 	<key>ordering</key>
 	<integer>6000</integer>
 	<key>displayName</key>
-	<string>State Machine</string>
+	<string>State</string>
 	<key>description</key>
-	<string>Creates a State Machine</string>
+	<string>A State in a State Machine</string>
 	<key>inheritsFrom</key>
 	<string>NSObject</string>
 	<key>canHaveChildren</key>
@@ -15,21 +15,29 @@
 	<key>canBeRootNode</key>
 	<true/>
 	<key>className</key>
+	<string>CCStateNode</string>
+	<key>requireParentClass</key>
 	<string>CCStateMachine</string>
-	<key>editorClassName</key>
-	<string>CCBPStateMachine</string>
 	<key>requireChildClass</key>
 	<array>
-		<string>CCStateNode</string>
 		<string>CCStateMachine</string>
 	</array>
+	<key>spriteFrameDrop</key>
+	<dict>
+		<key>className</key>
+		<string>CCSprite</string>
+		<key>property</key>
+		<string>spriteFrame</string>
+	</dict>
+	<key>editorClassName</key>
+	<string>CCBPStateNode</string>
 	<key>properties</key>
 	<array>
 		<dict>
 			<key>displayName</key>
-			<string>CCStateMachine</string>
+			<string>CCState</string>
 			<key>name</key>
-			<string>CCStateMachine</string>
+			<string>CCState</string>
 			<key>type</key>
 			<string>Separator</string>
 			<key>dontSetInEditor</key>
@@ -37,31 +45,13 @@
 		</dict>
 		<dict>
 			<key>default</key>
-			<integer>0</integer>
+			<string>Title</string>
 			<key>displayName</key>
-			<string>Init</string>
+			<string>Title</string>
 			<key>type</key>
-			<string>NodeReference</string>
+			<string>String</string>
 			<key>name</key>
-			<string>startState</string>
-		</dict>
-		<dict>
-			<key>defaultSerialization</key>
-			<array>
-				<integer>0</integer>
-				<integer>0</integer>
-				<integer>0</integer>
-			</array>
-			<key>animatable</key>
-			<false/>
-			<key>displayName</key>
-			<string>Position</string>
-			<key>type</key>
-			<string>Position</string>
-			<key>name</key>
-			<string>position</string>
-			<key>inspectorDisabled</key>
-			<true/>
+			<string>title</string>
 		</dict>
 	</array>
 </dict>

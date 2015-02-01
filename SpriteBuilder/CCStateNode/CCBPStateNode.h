@@ -8,8 +8,8 @@
 
 #import "CCNode.h"
 
-@interface CCBPStateMachine : CCNode
+@interface CCBPStateNode : CCNode
 
-@property (nonatomic, strong) CCNode *startState;
+@property (nonatomic, strong) NSString *title;
 
 @end
